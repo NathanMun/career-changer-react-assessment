@@ -1,3 +1,5 @@
+import Homenormal from "./components/homenormal/Homenormal"
+
 const mockEmployees = [
   {
     id: 0,
@@ -23,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-
+      <Homenormal />
     </div>
   )
 }
