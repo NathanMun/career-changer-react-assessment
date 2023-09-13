@@ -1,16 +1,19 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import './homenormal.css'
 
 function Homenormal() {
   return (
-    <div className='navbar'>
+    <div>
         <Navbar />
-        <div>
+        <div className='homenormal'>
+          <div>
             <h1>Generation Thailand <br />React - Assessment</h1>
-            <div>
-                <button>User Home Sector</button>
-                <button>Admin Home Sector</button>
-            </div>
+          </div>
+          <div className='btn'>
+            <button><a href='http://localhost:5173/homeuser'>User Home Sector</a></button>
+            <button><a href='http://localhost:5173/homeadmin'>Admin Home Sector</a></button>
+          </div>
         </div>
     </div>
   )

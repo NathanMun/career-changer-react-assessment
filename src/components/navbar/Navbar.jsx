@@ -1,12 +1,16 @@
 import React from 'react'
+import './navbar.css';
+
 
 function Navbar() {
   return (
-    <div className='navbar'>
-        <ul>
-            <li>Home</li>
-            <li>Owner</li>
-        </ul>
+    <div>
+        <div className='navbar'>
+          <ul>
+              <li><a href='http://localhost:5173/'>Home</a></li>
+              <li><a href='http://localhost:5173/owner'>Owner</a></li>
+          </ul>
+        </div>
     </div>
   )
 }

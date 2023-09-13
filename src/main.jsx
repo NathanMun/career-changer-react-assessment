@@ -9,6 +9,7 @@ import Homenormal from './components/homenormal/Homenormal';
 import Homeuser from './components/homeuser/Homeuser';
 import Homeadmin from './components/homeadmin/Homeadmin';
 import Owner from './components/owner/Owner';
+import './app.css'
 
 const router = createBrowserRouter ([
   {
@@ -29,10 +30,6 @@ const router = createBrowserRouter ([
   }
 
 ]) 
-
-
-
-
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
