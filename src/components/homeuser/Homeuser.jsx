@@ -1,8 +1,18 @@
 import React from 'react'
+import Homenormal from '../homenormal/Homenormal'
 
 function Homeuser() {
   return (
-    <div>Homeuser</div>
+    <div className='homeuser'>
+      <Homenormal />
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Position</th>
+            </tr>
+        </table>
+    </div>
   )
 }
 
