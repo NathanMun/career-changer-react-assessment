@@ -11,8 +11,8 @@ function Homenormal() {
             <h1>Generation Thailand <br />React - Assessment</h1>
           </div>
           <div className='btn'>
-            <button><a href='/homeuser'>User Home Sector</a></button>
-            <button><a href='/homeadmin'>Admin Home Sector</a></button>
+            <button><a href='homeuser'>User Home Sector</a></button>
+            <button><a href='homeadmin'>Admin Home Sector</a></button>
           </div>
         </div>
     </div>
