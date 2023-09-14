@@ -4,7 +4,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './Home';
 import Homenormal from './components/homenormal/Homenormal';
 import Homeuser from './components/homeuser/Homeuser';
 import Homeadmin from './components/homeadmin/Homeadmin';
