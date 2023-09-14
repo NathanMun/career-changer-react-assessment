@@ -7,8 +7,8 @@ function Navbar() {
     <div>
         <div className='navbar'>
           <ul>
-              <li><a href='http://localhost:5173/'>Home</a></li>
-              <li><a href='http://localhost:5173/owner'>Owner</a></li>
+              <li><a href='/'>Home</a></li>
+              <li><a href='/owner'>Owner</a></li>
           </ul>
         </div>
     </div>
